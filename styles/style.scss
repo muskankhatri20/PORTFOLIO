@@ -1,3 +1,4 @@
+
 *{
     margin:0;
     padding:0;
@@ -96,6 +97,7 @@ header{
         
     }
 }
+
 .controll{
     position: fixed;
     Z-index:10;
@@ -131,17 +133,18 @@ header{
         }
     }
 }
+
 .header-content{
     display:grid;
     grid-template-columns: repeat(2,2fr);
     
     height:100%;
-
     .left-header{
         grid-column: 40%;
 display:flex;
 position:relative;
 align-items: center;
+
 .h-shape{
     transition: all.4s ease-in-out;
     width: 65%;
@@ -154,8 +157,8 @@ align-items: center;
     clip-path: polygon(0 0,46% 0, 79% 100%,0 100%);
 }
    
+    }
 
-}
 .btn-con{
     display: flex;
     align-self: flex-start;
@@ -163,6 +166,7 @@ align-items: center;
     justify-content: center;
     align-items: center;
 }
+
 .main-btn{
     border-radius: 30px;
     border: 1px solid var(--color-secondary);
@@ -190,6 +194,7 @@ align-items: center;
         position :absolute;
     }
 }
+
 
 .btn-text{
     padding-left: 24px;
@@ -305,6 +310,7 @@ align-items: center;
     }
 
 }
+
 .contact_box{
 
     margin:auto;
@@ -316,7 +322,6 @@ align-items: center;
     text-align: center;
     width:18%;
     border-radius: 5px;
-
 .contact_btn{
     font-size: 2.6rem;
     font-weight: 400;
@@ -328,14 +333,16 @@ align-items: center;
         text-shadow:2px 1.2px var(--color-grey-3);
         }
     
-    
 }
+
+
+
 &:hover{
     background-color: var(--color-grey-3);
     transition:all.4s ease-in-out;
 }
-
 }
+
 .icons{
     margin-left: 50px;
     justify-content: center;
